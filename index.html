@@ -1,1 +1,22 @@
 <p>hey this is local repo and transformed into git repo</p>
+
+<p>
+steps to make local repo and and upload it to remote(github):
+
+ * First of all we are in "git-webdev" use "cd .." to move out of it and we will come under "Gitdemo" give "mkdir LocalRepo" to 
+   make new directory/folder under gitdemo only, and after this "ls -a" to get list of files in "LocalRepo" we do,nt get ".git"
+   becoz it is not yet a git repo , it is only in local.
+ 
+* "git init" will make it a git repo  now
+
+* Create new files index.html and style.css ans add using "git add ." and commit using "git commit -m "Initial files created" "
+* open github and make a new repo "localrepo" without excluding readme.md file.
+*  Befor push we have  to add our local project to remote use " git remote add origin https://github.com/abhi5564/localrepo.git"
+* To verify remote use "git remote -v"
+* we can also check in which branch we are at present "git branch"
+* we can also change the branch name "git branch -M main"
+* to push we give cmd "git push origin main" but we can make it short by using cmd "git push -u origin main" only once and after
+  that we need to write only "git push" (u represents upstream which defaults push the code to origin only)
+  
+
+</p>
